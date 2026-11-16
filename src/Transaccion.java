@@ -1,14 +1,17 @@
 public class Transaccion {
+    //Nimbre, numero de asinto y tipo de cada transaccion
     private String nombre;
     private String numAsiento;
     private String tipo;
 
+    //Metodo constructor
     public Transaccion(String nombre, String numAsiento, String tipo) {
         this.nombre = nombre;
         this.numAsiento = numAsiento;
         this.tipo = tipo;
     }
 
+    //Getters y Setters
     public String getNombre() {
         return nombre;
     }
